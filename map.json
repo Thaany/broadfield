@@ -867,51 +867,6 @@
                         }]
                 }],
          "tilewidth":32
-        }, 
-        {
-         "columns":11,
-         "firstgid":321,
-         "image":"..\/..\/..\/Downloads\/dungeon_tiles.png",
-         "imageheight":384,
-         "imagewidth":368,
-         "margin":0,
-         "name":"dungeon_tiles",
-         "spacing":0,
-         "tilecount":132,
-         "tileheight":32,
-         "tilewidth":32
-        }, 
-        {
-         "columns":8,
-         "firstgid":453,
-         "image":"..\/..\/..\/Downloads\/magecity.png",
-         "imageheight":1450,
-         "imagewidth":256,
-         "margin":0,
-         "name":"magecity",
-         "spacing":0,
-         "tilecount":360,
-         "tileheight":32,
-         "tiles":[
-                {
-                 "id":128,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":129,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }],
-         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
