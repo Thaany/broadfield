@@ -74,6 +74,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"Marienkapelle"
+                }, 
+                {
+                 "name":"openWebsiteTrigger",
+                 "type":"string",
+                 "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
