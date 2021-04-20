@@ -1,3 +1,5 @@
+WA.sendChatMessage('Hello world', 'Mr Robot');
+
 class Popup {
     /**
      * Closes the popup
