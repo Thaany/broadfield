@@ -1,3 +1,4 @@
+
 WA.sendChatMessage('Hello world', 'Mr Robot');
 
 class Popup {
@@ -12,6 +13,8 @@ let helloWorldPopup;
 // Open the popup when we enter a given zone
 
 helloWorldPopup = WA.onEnterZone('zoneKanzel', () => {
+	WA.sendChatMessage('Hello world', 'Mr Robot');
+	
     WA.openPopup("PopUpKanzel", 'HALLELUJA!', [{
         label: "Close",
         className: "primary",
