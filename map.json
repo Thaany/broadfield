@@ -209,7 +209,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/sudoku.zeit.de\/"
+                 "value":"https:\/\/sudoku.com\/de"
                 }, 
                 {
                  "name":"openWebsiteTrigger",
