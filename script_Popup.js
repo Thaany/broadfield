@@ -29,3 +29,4 @@ helloWorldPopup = WA.onEnterZone('zoneKanzel', () => {
 WA.onLeaveZone('zoneKanzel', () => {
     helloWorldPopup.close();
 });
+
