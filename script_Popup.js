@@ -33,6 +33,5 @@ WA.onLeaveZone('zoneKanzel', () => {
 
 priest = WA.onEnterZone('zonePriester', () => {
 	WA.sendChatMessage('Willkommen in Breitenfeld', 'Gregor');
-    
 });
 
