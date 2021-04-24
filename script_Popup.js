@@ -9,6 +9,7 @@ class Popup {
 }
 
 let helloWorldPopup;
+let priest;
 
 // Open the popup when we enter a given zone
 
@@ -28,5 +29,10 @@ helloWorldPopup = WA.onEnterZone('zoneKanzel', () => {
 // Close the popup when we leave the zone.
 WA.onLeaveZone('zoneKanzel', () => {
     helloWorldPopup.close();
+});
+
+priest = WA.onEnterZone('zonePriester', () => {
+	WA.sendChatMessage('Willkommen in Breitenfeld', 'Gregor');
+    
 });
 
