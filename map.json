@@ -527,18 +527,7 @@
          "draworder":"topdown",
          "id":44,
          "name":"PopUpKanzel",
-         "objects":[
-                {
-                 "height":45.3333333333333,
-                 "id":2,
-                 "name":"PopUpKanzel_FELD",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":140.666666666667,
-                 "x":922,
-                 "y":410.666666666667
-                }],
+         "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -561,7 +550,18 @@
          "draworder":"topdown",
          "id":3,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "height":45.3333333333333,
+                 "id":2,
+                 "name":"PopUpKanzel_FELD",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":140.666666666667,
+                 "x":923,
+                 "y":409.666666666667
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
