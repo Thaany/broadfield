@@ -1,6 +1,5 @@
-WA.openTab('https://www.wikipedia.org/');
-
-WA.sendChatMessage('Hello world', 'Mr Robot');
+ 
+WA.sendChatMessage('Willkommen in Breitenfeld', 'Kirchenmaus');
 
 class Popup {
     /**
@@ -14,10 +13,9 @@ let helloWorldPopup;
 // Open the popup when we enter a given zone
 
 helloWorldPopup = WA.onEnterZone('zoneKanzel', () => {
-	WA.sendChatMessage('Hello world', 'Mr Robot');
 	
     WA.openPopup("PopUpKanzel_FELD", 'HALLELUJA!', [{
-        label: "Close",
+        label: "Amen",
         className: "primary",
         callback: (popup) => {
             // Close the popup when the "Close" button is pressed.
