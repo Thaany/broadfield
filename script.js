@@ -16,7 +16,7 @@ let helloWorldPopup;
 helloWorldPopup = WA.onEnterZone('zoneKanzel', () => {
 	WA.sendChatMessage('Hello world', 'Mr Robot');
 	
-    WA.openPopup("PopUpKanzel", 'HALLELUJA!', [{
+    WA.openPopup("PopUpKanzel_FELD", 'HALLELUJA!', [{
         label: "Close",
         className: "primary",
         callback: (popup) => {
