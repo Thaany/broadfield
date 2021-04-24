@@ -1,5 +1,5 @@
  
-WA.sendChatMessage('Willkommen in Breitenfeld', 'Kirchenmaus');
+// WA.sendChatMessage('Willkommen in Breitenfeld', 'Kirchenmaus');
 
 class Popup {
     /**
