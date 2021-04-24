@@ -219,7 +219,7 @@
                 {
                  "name":"openWebsiteTriggerMessage",
                  "type":"string",
-                 "value":"Dr\u00fccke die LEERTASTE um Sudoku zu spielen"
+                 "value":"Dr\u00fccke die LEERTASTE um SUDOKU zu spielen"
                 }],
          "type":"tilelayer",
          "visible":true,
