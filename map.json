@@ -209,7 +209,17 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"http:\/\/sudokuonline.at\/iframe_play.php"
+                 "value":"https:\/\/sudoku.zeit.de\/"
+                }, 
+                {
+                 "name":"openWebsiteTrigger",
+                 "type":"string",
+                 "value":"onaction"
+                }, 
+                {
+                 "name":"openWebsiteTriggerMessage",
+                 "type":"string",
+                 "value":"Dr\u00fccke die LEERTASTE um Sudoku zu spielen"
                 }],
          "type":"tilelayer",
          "visible":true,
